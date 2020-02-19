@@ -1,0 +1,71 @@
+.modal{
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10rem;
+        @media screen and (max-width: 1100px) {
+            flex-direction: column;
+            margin: 2rem;
+        }
+    }
+    &__image{
+        width: 44.3rem;
+        @media screen and (max-width: 1100px) {
+            width: 100%;
+        }
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        margin: 0 5rem;
+        @media screen and (max-width: 1100px) {
+           
+        }
+      
+    
+       
+    }
+    &__header{
+        font-size: 4rem;
+        padding-bottom: 5rem;
+        
+        @media screen and (max-width: 1100px) {
+            font-size: 8rem;
+            padding-bottom: 3rem;
+            text-align: center;
+            align-items: center;
+        }
+       
+    }
+    &__lead{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 3px #eeeeee solid;
+    }
+    &__requirements{
+        padding-top: 1rem;
+        list-style-type: none;
+        font-size: 1.6rem;
+        
+        &--height{
+            margin-top: 1rem;
+        }
+        &--health{
+            margin-top: 1rem;
+        }
+    }
+    &__button-container{
+        display: flex;
+        margin-top: 2rem;
+
+        .btn{
+            &:not(:first-child){
+                margin-left: 1rem;
+            }
+        }
+    }
+}

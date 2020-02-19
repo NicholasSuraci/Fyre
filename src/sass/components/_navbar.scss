@@ -1,0 +1,31 @@
+.nav{
+    height: 5rem;
+    position: sticky;
+
+    background: $color-grey-dark-3;
+    &__items{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        margin-right: 2rem;
+        align-items: center;
+        
+       
+
+        
+        
+        
+    }
+
+    &__item{
+        font-size: 2rem;
+        margin-top: 1rem;
+        
+    }
+
+    &__link{
+        text-decoration: none;
+        color: #fff;
+        
+    }
+}

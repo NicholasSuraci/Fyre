@@ -1,0 +1,47 @@
+.lineup{
+    background: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url(../image/lineuplanding2.jpg) no-repeat center top / cover;
+    height: 100vh;
+
+    &__container{
+        color: white;
+
+        
+       
+    }
+
+    &__row{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30vh;
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+        }
+        
+
+    }
+
+    &__col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color-grey-dark-2, .3);
+      
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+    &__list{
+        list-style-type: none;
+
+    }
+
+    &__item{
+     
+            margin-top: 2rem;
+        
+    }
+   
+}
